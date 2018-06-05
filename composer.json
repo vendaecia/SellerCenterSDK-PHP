@@ -1,5 +1,5 @@
 {
-  "name": "jvictor27/sellercenter-sdk-php",
+  "name": "rocket-labs/sellercenter-sdk-php",
   "description": "SellerCenter SDK for PHP",
   "license": "MIT",
   "require": {
