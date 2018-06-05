@@ -35,8 +35,12 @@ class Image implements RequestBuilderInterface
      * @return static
      */
     public function addImage($imageUrl)
-    {
-        $this->images[] = $imageUrl;
+    {   
+        if (is_array($imageUrl)) {
+            $this->images = $imageUrl;
+        } else {
+            $this->images[] = $imageUrl;
+        }
         return $this;
     }
 
